@@ -7,6 +7,6 @@ var musicaSchema = new mongoose.Schema({
     }
 })
 
-var Musica = new mongoose.model("Musica", musicaSchema)
+var musica = new mongoose.model("musica", musicaSchema,"musica")
 
-module.exports = Musica
+module.exports = musica

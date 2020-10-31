@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router()
-var Musica = require("../../model/musica")
+var Musica = require("../model/musica")
 
 router.get('/', function(req, res){
-    var result = Musica.find(function(err,doc){
+    var result = Musica.find(function(err, doc){
         if(!err){
             res.status(200).json(doc)
         }else{
@@ -12,7 +12,7 @@ router.get('/', function(req, res){
     })
     })
 
-/*router.post('/', function(req,res){
+router.post('/', function(req,res){
     var musica = req.body
     var nova_musica = new Musica(musica)
     nova_musica.save(function(err){
@@ -22,4 +22,6 @@ router.get('/', function(req, res){
             res.status(500).json({erro: "Erro ao salvar"})
         }
     })
-})*/
+})
+
+module.exports = router
