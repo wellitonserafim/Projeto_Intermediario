@@ -1,0 +1,12 @@
+const mongoose = require('../data')
+
+var compositorSchema = new mongoose.Schema({
+    nome: {
+        type: String,
+        require: true
+    },
+})
+
+var compositor = new mongoose.model("compositor", compositorSchema,"compositor")
+
+module.exports = compositor

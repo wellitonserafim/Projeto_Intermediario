@@ -1,16 +1,16 @@
 const mongoose = require('../data')
 
-var musicaSchema = new mongoose.Schema({
+var albumSchema = new mongoose.Schema({
     nome: {
         type: String,
         require: true
-    }, 
+    },
     ano: {
         type: Number,
         require: true
     }
 })
 
-var musica = new mongoose.model("musica", musicaSchema,"musica")
+var album = new mongoose.model("album", albumSchema,"album")
 
-module.exports = musica
+module.exports = album
