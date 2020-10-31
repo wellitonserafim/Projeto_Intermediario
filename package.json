@@ -1,0 +1,24 @@
+{
+  "name": "projeto_intermediario",
+  "version": "1.0.0",
+  "description": "API desenvolvida para o projeto intermediario da diciplina de JPW Unesc 2020.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellitonserafim/Projeto_Intermediario.git"
+  },
+  "author": "Welliton Serafim da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wellitonserafim/Projeto_Intermediario/issues"
+  },
+  "homepage": "https://github.com/wellitonserafim/Projeto_Intermediario#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}
