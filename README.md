@@ -1,6 +1,8 @@
 # Projeto Intermediário
 
-Projeto intermediário desenvolvido para a diciplina de Java para Web da Universidade do Extremo Sul Catarinense (Unesc).Esta aplicação consiste em uma API que armazena dados referentes a Musicas, com as seguintes definições: **Musica**, **Álbum** e **Compositor**. Através dos CRUDS **GET,POST, PUT e DELETE** é possivel consultar, inserir, alterar e deletar os dados armazenados.
+Projeto intermediário desenvolvido para a diciplina de Java para Web da Universidade do Extremo Sul Catarinense (UNESC). 
+Esta aplicação consiste em uma API que armazena dados referentes a Musicas, com as seguintes definições: **Musica**, **Álbum** e **Compositor**. 
+Através dos CRUDS: **GET,POST, PUT e DELETE** é possivel consultar, inserir, alterar e deletar os dados armazenados.
 
 
 ### 📋 Pré-requisitos
@@ -63,7 +65,8 @@ Corpo da mensagem em Json: {"nome":"Pay", "ano":"2014"}
 
 O método DELETE é utilizado para deletar recursos. Não é necessário passar nada no corpo mas é necessário passar um "Id" válido no endereço. O retorno em caso de sucesso é próprio objeto deletado.
 ```
-Exemplo de exclusão com Requisição Delete: 
+Exemplo de exclusão com Requisição Delete:
+
 Musica: http://localhost:3000/musica/:id
 ```
 
