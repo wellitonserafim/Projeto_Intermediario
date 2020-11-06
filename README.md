@@ -1,7 +1,7 @@
 # Projeto Intermediário
 
 Projeto intermediário desenvolvido para a diciplina de Java para Web da Universidade do Extremo Sul Catarinense (UNESC). 
-Esta aplicação consiste em uma API que armazena dados referentes a Musicas, com as seguintes definições: **Musica**, **Álbum** e **Compositor**. 
+Esta aplicação consiste em uma API que armazena dados referentes a Musicas, com as seguintes definições: **Música**, **Álbum** e **Compositor**. 
 Através dos CRUDS: **Get, Post, Put e Delete** é possivel consultar, inserir, alterar e deletar os dados armazenados.
 
 
@@ -24,14 +24,14 @@ O método GET tem a finalidade de retornar dados em nossa API. Não é necessár
 ```
 Exemplo de listagens gerais com Requisição Get:
 
-Musica: http://localhost:3000/musica
+Música: http://localhost:3000/musica
 Álbum: http://localhost:3000/album
 Compositor:http://localhost:3000/compositor
 ```
 ```
 Exemplo de listagens específicas com Requisição Get:
 
-Musica: http://localhost:3000/musica?nome=DieYoung
+Música: http://localhost:3000/musica?nome=DieYoung
 Álbum: http://localhost:3000/album?nome=Warrior
 Compositor: http://localhost:3000/compositor?nome=Kesha
 ```
@@ -42,7 +42,7 @@ O método POST tem a finalidade de inserir novos objetos. É necessário passar 
 ```
 Exemplo de inserção com Requisição Post: 
 
-Musica: http://localhost:3000/musica
+Música: http://localhost:3000/musica
 Corpo da mensagem em Json: {"nome":"Payphone", "ano":"2012"}
 
 Álbum: http://localhost:3000/album
@@ -58,7 +58,7 @@ O método PUT tem a finalidade de alterar um recurso ou coleção. É necessári
 ```
 Exemplo de alteração com Requisição Put: 
 
-Musica: http://localhost:3000/musica/:id
+Música: http://localhost:3000/musica/:id
 Corpo da mensagem em Json: {"nome":"Pay", "ano":"2014"}
 ```
 ### ✖ Delete
@@ -67,7 +67,7 @@ O método DELETE é utilizado para deletar recursos. Não é necessário passar 
 ```
 Exemplo de exclusão com Requisição Delete:
 
-Musica: http://localhost:3000/musica/:id
+Música: http://localhost:3000/musica/:id
 ```
 
 ### 🆘 Código de Status
