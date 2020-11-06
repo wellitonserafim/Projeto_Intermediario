@@ -2,7 +2,7 @@
 
 Projeto intermediário desenvolvido para a diciplina de Java para Web da Universidade do Extremo Sul Catarinense (UNESC). 
 Esta aplicação consiste em uma API que armazena dados referentes a Musicas, com as seguintes definições: **Musica**, **Álbum** e **Compositor**. 
-Através dos CRUDS: **GET,POST, PUT e DELETE** é possivel consultar, inserir, alterar e deletar os dados armazenados.
+Através dos CRUDS: **GET, POST, PUT e DELETE** é possivel consultar, inserir, alterar e deletar os dados armazenados.
 
 
 ### 📋 Pré-requisitos
