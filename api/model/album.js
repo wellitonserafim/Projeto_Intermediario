@@ -5,10 +5,18 @@ var albumSchema = new mongoose.Schema({
         type: String,
         require: true
     },
+    genero: {
+        type: String,
+        require: true
+    },
     ano: {
         type: Number,
         require: true
-    }
+    },
+    gravadora: {
+        type: String,
+        require: true
+    },
 })
 
 var album = new mongoose.model("album", albumSchema,"album")

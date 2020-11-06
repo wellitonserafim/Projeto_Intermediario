@@ -5,6 +5,10 @@ var musicaSchema = new mongoose.Schema({
         type: String,
         require: true
     }, 
+    genero: {
+        type: String,
+        require: true
+    },
     ano: {
         type: Number,
         require: true

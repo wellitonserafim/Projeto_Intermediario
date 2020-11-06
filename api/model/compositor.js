@@ -5,6 +5,14 @@ var compositorSchema = new mongoose.Schema({
         type: String,
         require: true
     },
+    nome_completo: {
+        type: String,
+        require: true
+    },
+    nacionalidade: {
+        type: String,
+        require: true
+    }
 })
 
 var compositor = new mongoose.model("compositor", compositorSchema,"compositor")
