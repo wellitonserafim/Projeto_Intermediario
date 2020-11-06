@@ -19,60 +19,53 @@ Para se conectar ao Banco de dados Mongoose é necessário criar um arquivo **co
 ### 📑  Get
 
 O método GET tem a finalidade de retornar dados em nossa API. Não é necessário passar nada no corpo da mensagem.
+```
+Exemplo de listagens gerais com Requisição Get:
 
-Exemplo de listagens gerais:
+Musica: http://localhost:3000/musica
+Álbum: http://localhost:3000/album
+Compositor:http://localhost:3000/compositor
+```
+```
+Exemplo de listagens específicas com Requisição Get:
 
-**Musica**: Requisição Get / http://localhost:3000/musica
-
-**Álbum**: Requisição Get / http://localhost:3000/album
-
-**Compositor**: Requisição Get / http://localhost:3000/compositor
-
-
-Exemplo de listagens especificas:
-
-**Musica**: Requisição Get / http://localhost:3000/musica?nome=DieYoung
-
-**Álbum**: Requisição Get / http://localhost:3000/album?nome=Warrior
-
-**Compositor**: Requisição Get / http://localhost:3000/compositor?nome=Kesha
-
+Musica: http://localhost:3000/musica?nome=DieYoung
+Álbum: http://localhost:3000/album?nome=Warrior
+Compositor: http://localhost:3000/compositor?nome=Kesha
+```
 
 ## ✔ Post
 
 O método POST tem a finalidade de inserir novos objetos. É necessário passar no corpo da mensagem o objeto completo a ser inserido. O retorno é próprio objeto enviado.
+```
+Exemplo de inserção com Requisição Post: 
 
-Exemplo de inserção: 
-
-**Musica**: Requisição Post / http://localhost:3000/musica
-
+Musica: http://localhost:3000/musica
 Corpo da mensagem em Json: {"nome":"Payphone", "ano":"2012"}
 
-**Álbum**: Requisição Post / http://localhost:3000/album
-
+Álbum: http://localhost:3000/album
 Corpo da mensagem em Json: {"nome":"Overexposed", "ano":"2012"}
 
-**Compositor**: Requisição Post / http://localhost:3000/compositor
-
+Compositor: http://localhost:3000/compositor
 Corpo da mensagem em Json: {"nome":"Maroon 5"}
-
+```
 
 ### 🔄 Put
 
 O método PUT tem a finalidade de alterar um recurso ou coleção. É necessário passar no corpo da mensagem um objeto completo  a ser atualizado e um "Id" válido no endereço. O retorno é o próprio objeto enviado.
+```
+Exemplo de alteração com Requisição Put: 
 
-Exemplo de alteração: 
-
-**Musica** Requisição Put / http://localhost:3000/musica/:id
-
+Musica: http://localhost:3000/musica/:id
 Corpo da mensagem em Json: {"nome":"Pay", "ano":"2014"}
-
+```
 ### ✖ Delete
 
 O método DELETE é utilizado para deletar recursos. Não é necessário passar nada no corpo mas é necessário passar um "Id" válido no endereço. O retorno em caso de sucesso é próprio objeto deletado.
-
-**Musica** Requisição Put / http://localhost:3000/musica/:id
-
+```
+Exemplo de exclusão com Requisição Delete: 
+Musica: http://localhost:3000/musica/:id
+```
 
 ### 🆘 Código de Status
 
