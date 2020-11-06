@@ -43,6 +43,7 @@ O método POST tem a finalidade de inserir novos objetos. É necessário passar 
 Exemplo de inserção com Requisição Post: 
 
 Música: http://localhost:3000/musica
+<<<<<<< HEAD
 Corpo da mensagem em Json: {"nome":"Payphone", "genero":"Pop", "ano":"2012"}
 
 Álbum: http://localhost:3000/album
@@ -50,6 +51,15 @@ Corpo da mensagem em Json: {"nome":"Overexposed","genero":"Pop", "ano":"2012", "
 
 Compositor: http://localhost:3000/compositor
 Corpo da mensagem em Json: {"nome":"Maroon 5","nome_completo":"Adam Levine","nacionalidade":"Americana"}
+=======
+Corpo da mensagem em Json: {"nome":"Payphone", "ano":"2012"}
+
+Álbum: http://localhost:3000/album
+Corpo da mensagem em Json: {"nome":"Overexposed", "ano":"2012"}
+
+Compositor: http://localhost:3000/compositor
+Corpo da mensagem em Json: {"nome":"Maroon 5"}
+>>>>>>> c3c58abd2982956ab67f5eba297f5cebbfba300f
 ```
 
 ### 🔄 Put
