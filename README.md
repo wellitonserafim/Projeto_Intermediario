@@ -9,6 +9,7 @@ O endereço de acesso da aplicação é: http://localhost:3000/
 
 Para se conectar ao Banco de dados Mongoose é necessário criar um arquivo **config.json** contendo as seguintes variaveis:
 
+| Variáveis      | 
 | -------------- |
 | user           |
 | password       |
@@ -22,13 +23,18 @@ O método GET tem a finalidade de retornar dados em nossa API. Não é necessár
 Exemplo de listagens gerais:
 
 **Musica**: Requisição Get / http://localhost:3000/musica
+
 **Álbum**: Requisição Get / http://localhost:3000/album
+
 **Compositor**: Requisição Get / http://localhost:3000/compositor
+
 
 Exemplo de listagens especificas:
 
 **Musica**: Requisição Get / http://localhost:3000/musica?nome=DieYoung
+
 **Álbum**: Requisição Get / http://localhost:3000/album?nome=Warrior
+
 **Compositor**: Requisição Get / http://localhost:3000/compositor?nome=Kesha
 
 
@@ -39,12 +45,15 @@ O método POST tem a finalidade de inserir novos objetos. É necessário passar 
 Exemplo de inserção: 
 
 **Musica**: Requisição Post / http://localhost:3000/musica
+
 Corpo da mensagem em Json: {"nome":"Payphone", "ano":"2012"}
 
 **Álbum**: Requisição Post / http://localhost:3000/album
+
 Corpo da mensagem em Json: {"nome":"Overexposed", "ano":"2012"}
 
 **Compositor**: Requisição Post / http://localhost:3000/compositor
+
 Corpo da mensagem em Json: {"nome":"Maroon 5"}
 
 
@@ -55,6 +64,7 @@ O método PUT tem a finalidade de alterar um recurso ou coleção. É necessári
 Exemplo de alteração: 
 
 **Musica** Requisição Put / http://localhost:3000/musica/:id
+
 Corpo da mensagem em Json: {"nome":"Pay", "ano":"2014"}
 
 ### ✖ Delete
